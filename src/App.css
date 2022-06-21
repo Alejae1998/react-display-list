@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.movie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+}
+.cat {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: rgba(222, 8, 8, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+text-align: center;
+text-indent: 10px;
+}
+
+
