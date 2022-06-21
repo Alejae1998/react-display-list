@@ -1,10 +1,10 @@
 import Cats from './CatsItem';
 
-export default function CatsList({ cats }) {
+export default function CatsList({ cats = [] }) {
   return (
     <div className="cats-list">
-      {cats.map((cat) => (
-        <Cats key={cat.name} cat= { cat } />
+      {cats.map((cat, i) => (
+        <Cats key={cat.breed + i} cat={cat} />
       ))}
     </div>
   );
