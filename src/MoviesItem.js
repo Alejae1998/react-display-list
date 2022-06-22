@@ -3,7 +3,7 @@
 export default function Movies({ movie }) {
   return (
     <div className="movie">
-      <p>Movie Name: {movie.name}</p>
+      <h2>Movie Name: {movie.name}</h2>
       <p>Released in: {movie.year}</p>
       <p>Directed by: {movie.director}</p>
     </div>
