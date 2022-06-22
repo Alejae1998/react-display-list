@@ -31,7 +31,6 @@ function App() {
   async function fetchPets() {
     const pets = await getPets();
     setPets(pets);
-
   }
   useEffect(() => {
     fetchMovies();
@@ -39,7 +38,8 @@ function App() {
     fetchRestaurants();
     fetchPets();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, 
+  []);
 
   return (
     <div className="App">
